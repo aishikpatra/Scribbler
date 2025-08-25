@@ -33,11 +33,3 @@ A lightweight and aesthetically pleasing **Flutter notes application** inspired 
   - Notes remain visible even after app restart
 
 ---
-
-## Getting Started
-
-### Prerequisites
-- Flutter SDK >= 3.7.0
-- Dart SDK
-- Android Studio / VS Code (or your preferred IDE)
-- Git
