@@ -1,16 +1,43 @@
-# my_app
+# Scribbler – Flutter Notes App
 
-A new Flutter project.
+A lightweight and aesthetically pleasing **Flutter notes application** inspired by Google Keep. Scribbler allows users to create, edit, delete, and manage notes with a simple, clean interface. Notes are stored locally using **Hive** and persist across sessions.
+
+---
+
+## Features
+
+- **User Authentication**
+  - Sign up with first name (required), middle name (optional), last name (required)
+  - Login with username and password
+  - Google login integration (optional)
+
+- **Notes Management**
+  - Add, edit, and delete notes
+  - Two-column grid layout, new notes appear below existing ones
+  - Full-screen editor for easy note editing
+  - Bold titles and aesthetic design
+
+- **Trash System**
+  - Delete notes to trash
+  - View and restore or permanently delete notes
+  - Confirm permanent deletion to avoid accidents
+
+- **UI & Design**
+  - Google Keep-inspired colors
+  - Consistent header/footer colors
+  - Light and aesthetic note cards and background
+  - Footer icons for easy navigation between notes and trash
+
+- **Persistence**
+  - Notes are stored locally using **Hive**
+  - Notes remain visible even after app restart
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- Flutter SDK >= 3.7.0
+- Dart SDK
+- Android Studio / VS Code (or your preferred IDE)
+- Git
